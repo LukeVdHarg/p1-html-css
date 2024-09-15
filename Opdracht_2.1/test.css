@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(70, 70, 70);
+  background-image:url(Background.png);
+  /* background-size:100% 100%; */
+}
+
+ a:link {
+  color: rgb(0, 132, 255);
+}
+
+a:visited {
+  color: rgb(0, 255, 0);
+}
+
+a:hover {
+  color: rgb(255, 0, 0);
+}
+
+a:active {
+  color: rgb(255, 242, 0);
+} 
+
+h1 {
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: 5px;
+  -webkit-text-stroke-color: black;
+  font-family: Verdana;
+  font-size: 75px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  margin-top:1%;
+}
+
+h2 {
+  font-family: Verdana;
+  font-size: 25px;
+  color: rgb(251, 251, 251);
+}
+
+h3 {
+  font-family: Verdana;
+  font-size: 25px;
+  color: rgb(251, 251, 251);
+}
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
