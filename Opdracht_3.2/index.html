@@ -3,9 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>TUI Boekingsformulier</title>
+  <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-  
+  <h1>Boekingsformulier</h1>
+
+  <form>
+    <label for="firstname">Voornaam:</label>
+    <input type="text" name="firstname">
+    <br><br>
+    <label for="surname">Achternaam:</label>
+    <input type="text" name="surname">
+    <br><br>
+    <label for="gender">Geslacht:</label>
+    <input type="radio" checked name="gender" value="Man"> Man
+    <input type="radio" name="gender" value="Vrouw"> Vrouw
+    <br><br>
+    <label for="address">Straat en huisnummer:</label>
+    <input type="text" name="address">
+    <input type="number" name="address">
+    <br><br>
+    <label for="postcode">Postcode:</label>
+    <input type="text" name="postcode">
+    <br><br>
+    <label for="city">Stad:</label>
+    <input type="text" name="city">
+    <br><br>
+    <label for="country">Land:</label>
+    <input type="text" pattern="[A-Za-z]" name="country">
+    <br><br>
+    <label for="BSN">BSN-nummer:</label>
+    <input type="text" pattern="1-9" maxlength="9" name="BSN">
+    <br><br>
+    <label for="country2">Vakantieland:</label>
+    <select>
+      <option value="Nederland">Nederland</option>
+      <option value="Spanje">Spanje</option>
+      <option value="Duitsland">Duitsland</option>
+      <option value="Frankrijk">Frankrijk</option>
+    </select>
+    <br><br>
+    <label for="Date">Datum van vertrek:</label>
+    <input type="date" min="2024-09-18" name="Date">
+    <br><br>
+    <label for="Date">Datum van terugkomst:</label>
+    <input type="date" min="2024-09-18" name="Date">
+    <br><br>
+    <label for="Reisgenoten">Aantal reisgenoten:</label>
+    <input type="number" max="4" min="0" name="Reisgenoten">
+    <br><br>
+    <label for="Email">Email:</label>
+    <input type="text" name="Email">
+    <br><br>
+    <label for="Password">Wachtwoord:</label>
+    <input type="password" name="Password">
+    <br><br>
+    <input type="submit" value="Boek nu">
+  </form>
 </body>
 </html>
