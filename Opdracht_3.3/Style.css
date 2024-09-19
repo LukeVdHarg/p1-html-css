@@ -1,0 +1,54 @@
+table, th, td { 
+  border-spacing: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 40px;
+}
+
+/* th, td {
+  background-color: rgba(250, 235, 215, 0.337);
+} */
+
+th {
+  border-bottom: solid 1px black;
+}
+
+td {
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: Verdana;
+  font-size: 60px;
+  height: 100px;
+  margin-top: -0.5%;
+}
+
+footer {
+  background-color: aliceblue;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 25px;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.Logo {
+  width: 55px;
+  height: auto;
+}
+
+#Invisible {
+  background: transparent;
+  border: 0px;
+}
+
+.Line {
+  background-color: black;
+}
