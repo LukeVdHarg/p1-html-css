@@ -11,10 +11,10 @@
 
   <form>
     <label for="firstname">Voornaam:</label>
-    <input type="text" name="firstname">
+    <input type="text" name="firstname" pattern="[A-Za-z]">
     <br><br>
     <label for="surname">Achternaam:</label>
-    <input type="text" name="surname">
+    <input type="text" name="surname" pattern="[A-Za-z]">
     <br><br>
     <label for="gender">Geslacht:</label>
     <input type="radio" checked name="gender" value="Man"> Man
@@ -45,10 +45,10 @@
     </select>
     <br><br>
     <label for="Date">Datum van vertrek:</label>
-    <input type="date" min="2024-09-18" name="Date">
+    <input type="date" min="2024-09-19" name="Date">
     <br><br>
     <label for="Date">Datum van terugkomst:</label>
-    <input type="date" min="2024-09-18" name="Date">
+    <input type="date" min="2024-09-19" name="Date">
     <br><br>
     <label for="Reisgenoten">Aantal reisgenoten:</label>
     <input type="number" max="4" min="0" name="Reisgenoten">
