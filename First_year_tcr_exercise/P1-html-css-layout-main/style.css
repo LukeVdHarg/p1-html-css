@@ -8,6 +8,15 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  background-size: 100%;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+img {
+  width: 250px;
 }
 
 nav {
@@ -20,6 +29,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  
 }
 nav ul {
   display: flex;
@@ -38,30 +48,80 @@ nav img {
   width: 5vw;
 }
 
-/* #Page1h1{
-  font-size: 75px;
+footer {
+  text-align: center;
+  font-size:  x-large;
+  padding: 10px;
   color: white;
-  text-align: center;
-  padding-top: 20%;
-}
-
-#Page1Body{
-  background-image: url(./img/background.jpeg);
-  background-position: center;
-  background-size:cover;
-  background-position-y: -5px;
-}
-
-#Page2Image{
-  width: 500px;
-  height: 400px;
+  width: 100%;
+  height: 45px;
+  bottom: 0px;
   position: absolute;
-  top: 200px;
-  left: 50px;
+  background-color: rgb(0,168,199);
 }
 
-#Page2h1{
-  font-size: 75px;
-  position: relative;
+form {
   text-align: center;
-} */
+}
+
+label {
+  font-size: 30px;
+  color: azure;
+}
+
+input {
+  width: 50%;
+  height: 30px;
+}
+
+#Message {
+  height: 90px;
+}
+
+#SubmitButton {
+  height: 50px;
+  font-size:xx-large;
+  background-color: rgb(12, 154, 12);
+}
+
+.Page1Body{
+  background-image: url(./img/background.jpeg);
+}
+
+.Page2Body {
+  background-color: white;
+  background-image: none;
+}
+
+ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a { 
+  color: white ;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.Dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #E9E9E9;
+  min-width: 20vw;
+  z-index: 1;
+  box-shadow: 0rem  0.5rem 1rem 0rem;
+}
+
+.Dropdown-content a {
+  color: rgb(0,168,199);
+  display: block;
+  text-align: left;
+}
+
+.Dropdown:hover .Dropdown-content {display: block;}
