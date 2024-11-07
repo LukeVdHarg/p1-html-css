@@ -1,0 +1,27 @@
+#box {
+  max-width: 1200px;
+  height: 200px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.Boxes {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#Box1 {
+  background-color: blue;
+}
+#Box2 {
+  background-color: rgb(0, 0, 0);
+}
+#Box3 {
+  background-color: red;
+}
+#Box4 {
+  background-color: green;
+}
