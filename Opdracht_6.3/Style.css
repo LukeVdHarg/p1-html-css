@@ -1,0 +1,23 @@
+.NavItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Items {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+#Logo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#Login {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
