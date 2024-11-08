@@ -140,6 +140,8 @@ li a {
   min-width: 20vw;
   z-index: 1;
   box-shadow: 0rem  0.5rem 1rem 0rem;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .DropButton:hover {
@@ -149,7 +151,6 @@ li a {
 
 .Dropdown-content a {
   color: rgb(0,168,199);
-  display: block;
   text-align: left;
 }
 
@@ -157,4 +158,4 @@ li a {
   background-color: #E9E9E9;
 }
 
-.Dropdown:hover .Dropdown-content {display: block;}
+.Dropdown:hover .Dropdown-content {display: flex;}
