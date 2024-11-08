@@ -21,6 +21,8 @@ img {
 
 nav {
   display: flex;
+  position: fixed;
+  top: 0;
   width: 100%;
   padding: 2rem;
   min-height: 10vh;
@@ -122,10 +124,15 @@ li a {
 .Dropdown-content{
   display: none;
   position: absolute;
-  background-color: #E9E9E9;
+  background-color: #ffffff;
   min-width: 20vw;
   z-index: 1;
   box-shadow: 0rem  0.5rem 1rem 0rem;
+}
+
+.DropButton:hover {
+  color: rgb(0,168,199);
+  background-color: #ffffff;
 }
 
 .Dropdown-content a {
@@ -135,7 +142,7 @@ li a {
 }
 
 .Test:hover {
-  background-color: rgb(181, 175, 175);
+  background-color: #E9E9E9;
 }
 
 .Dropdown:hover .Dropdown-content {display: block;}
