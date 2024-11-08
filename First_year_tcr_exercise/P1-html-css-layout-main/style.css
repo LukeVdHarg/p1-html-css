@@ -84,13 +84,23 @@ input {
   background-color: rgb(12, 154, 12);
 }
 
-.Page1Body{
+#Page1Body{
   background-image: url(./img/background.jpeg);
 }
 
-.Page2Body {
+#Page2Body {
   background-color: white;
   background-image: none;
+}
+
+#Page3Body {
+  background-color: black;
+  color: white;
+}
+
+#Page5Body {
+  background-color: black;
+  color: white;
 }
 
 ul {
